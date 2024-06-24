@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        img {
+            width: 100VW;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+
+        a {
+            display: block;
+            background-color: darkred;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bolder;
+            margin-top: -10px;
+            color: white;
+            font-family: arial, Geneva, Tahoma, sans-serif;
+        }
+
+        a:hover {
+            background-color: red;
+        }
